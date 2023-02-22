@@ -1,0 +1,29 @@
+.catalog{
+  background: #403C3B;
+  padding: 30px 80px;
+  &__content{
+    display: flex;
+    column-gap: 20px;
+  }
+  &__aside{
+    max-width: 250px;
+    width: 100%;
+    background: white;
+    height: 100vh;
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  &__right{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 50px;
+  }
+  &__title{
+    color: white;
+  }
+}

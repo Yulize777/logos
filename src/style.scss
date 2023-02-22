@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Gilda', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1270px;
+  width: 100%;
+  margin: 0 auto;
+}
+@import "./pages/layout/header/header";
+@import "./pages/layout/footer/footer";
+@import "./pages/home/Begin/begin";
+@import "./pages/home/Menu/menu";
+@import "./pages/home/Location/location";
+@import "./pages/home/Map/map";
+@import "./src/components/Form/form";
+@import "components/slider/slider";
+@import "./pages/delivery/delivery";
+@import "./pages/sales/sales";
+@import "./pages/catalog/catalog";
+@import "./pages/product/product";
+@import "./pages/addProduct/addProduct";
+@import "pages/basketZero/basketZero";
+@import "pages/Basket/basket";
+@import "pages/ordering/ordering";

@@ -1,0 +1,85 @@
+.map{
+  padding: 200px 0 40px 70px;
+  background: url('../../../../public/assets/images/map.png') center/cover no-repeat;
+  &__block{
+    width: 526px;
+    background: #2E2B2C;
+    border-radius: 15px;
+    padding: 24px 0;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-left: 43px;
+    margin-bottom: 26px;
+  }
+  &__address_main-cont{
+    display: flex;
+    margin-left: 60px;
+    column-gap: 15px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+  }
+  &__address__cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    color: #CFCFCF;
+  }
+  &__address-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  &__btn-main-cont{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-left: 52px;
+    margin-top: 20px;
+  }
+  &__btn{
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 22px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  &__btn-cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+  }
+  &__btn-title{
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+  }
+  &__btn-subtitle{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #CFCFCF;
+  }
+  &__end{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+  }
+  &__end-cont{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+}

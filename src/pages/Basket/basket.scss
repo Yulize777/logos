@@ -1,0 +1,126 @@
+.basket{
+  padding: 34px 172px 89px;
+  background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+  &__link{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 146px;
+  }
+  &__top{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 20px ;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF
+  }
+  &__desc{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A6A7AB;
+
+  }
+  &__quantity{
+    font-weight: 500;
+    font-size: 15px;
+    color: #72A479;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0 40px;
+  }
+  &__line{
+    padding: 20px 40px 20px 20px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    &:first-child{
+      border-radius: 10px 10px 0 0;
+    }
+    &:last-child{
+      border-radius: 0 0 10px 10px ;
+    }
+  }
+  &__line1{
+    padding: 20px 40px 20px 20px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+  }
+  &__cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin: 0 220px 0 40px;
+    width: 265px;
+
+  }
+  &__cont2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+  }
+  &__price{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 70px 0 130px;
+  }
+  &__close{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+  }
+  &__result{
+    display: flex;
+    padding: 20px 40px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 763px;
+    margin: 0 auto;
+    &__left{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    &__title{
+      font-weight: 500;
+      font-size: 18px;
+      color: #A6A7AB;
+    }
+    &__desc{
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF;
+    }
+    &__subtitle{
+      font-weight: 400;
+      font-size: 12px;
+      color: #FFFFFF;
+    }
+    &__btn{
+      font-weight: 700;
+      font-size: 14px;
+      color: #FFFFFF;
+      background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      padding: 17px 50px;
+    }
+  }
+}

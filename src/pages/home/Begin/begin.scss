@@ -1,0 +1,24 @@
+.begin{
+  background: url("../../../../public/assets/images/mask.png") center/cover no-repeat;
+  padding: 102px 0 123px;
+  width: 100%;
+  &__title{
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 109.2%;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 109.2%;
+    color: #FFFFFF;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    width: 230px;
+    margin-top: 33px;
+    border-radius: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,62 @@
+.location{
+  background: #403C3B;
+  padding:  0 40px;
+  position: relative;
+  height: 500px;
+  &__container{
+    background: url("../../../../public/assets/images/chicken2.png") center/cover no-repeat;
+    padding: 71px 100px 71px 71px;
+    display: flex;
+    column-gap: 160px;
+    position: absolute;
+    margin-right: 40px;
+  }
+  &__lBlock{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 50%;
+    padding: 30px 0;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  &__description{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #CFCFCF;
+  }
+  &__btn{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 22px 21px 22px 64px;
+    width: 223px;
+    border: none;
+  }
+  &__rBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  &__card{
+    width: calc(50% - 7.55555px);
+    background: rgba(80, 75, 74, 0.9);
+    backdrop-filter: blur(5px);
+    height: 227px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+  }
+}
